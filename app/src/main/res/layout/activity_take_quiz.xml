@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EBFCFB"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TakeQuizActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:background="#00B8D4"
+        android:layout_width="match_parent"
+        android:title="Take Quiz"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/title"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita_bold"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:text=""
+            android:textSize="@dimen/_20ssp"
+            tools:ignore="MissingConstraints" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_marginTop="@dimen/_5sdp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:max="100"
+            android:progress="20"
+            android:progressDrawable="@drawable/custom_progess"
+            android:secondaryProgress="45" />
+
+        <FrameLayout
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/circle" />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_30sdp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/progressBar"
+                android:text="" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/cauhoi"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text=""
+            android:textSize="@dimen/_15ssp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/background_radio"
+                android:padding="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp" />
+
+            <RadioButton
+                android:id="@+id/b"
+                android:background="@drawable/background_radio"
+                android:textSize="@dimen/_15ssp"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/c"
+                android:background="@drawable/background_radio"
+                android:textSize="@dimen/_15ssp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/d"
+                android:background="@drawable/background_radio"
+                android:textSize="@dimen/_15ssp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="" />
+            <RadioButton
+                android:id="@+id/e"
+                android:background="@drawable/background_radio"
+                android:textSize="@dimen/_15ssp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:visibility="gone"
+                android:text="D. 4" />
+        </RadioGroup>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:text="submit"
+            android:background="@drawable/background_frame"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/drawable/background_button.xml" value="0.1495" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/drawable/ic_add.xml" value="0.179" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.133" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/drawable/ic_logout.xml" value="0.2115" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/drawable/search.xml" value="0.187" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_add_question.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_add_user.xml" value="0.24010416666666667" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_category.xml" value="0.24010416666666667" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_feedback.xml" value="0.264" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_manager_question.xml" value="0.24010416666666667" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_manager_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_rank.xml" value="0.24010416666666667" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_result.xml" value="0.264" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_take_quiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_update_question.xml" value="0.24010416666666667" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/activity_update_user.xml" value="0.264" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/item_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/item_question.xml" value="0.253125" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/item_rank.xml" value="0.253125" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/layout/item_user.xml" value="0.253125" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/menu/add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/menu/add_question.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/menu/logout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Lap trinh/MyQuizApp/app/src/main/res/menu/search.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
